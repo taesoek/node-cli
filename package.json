@@ -1,0 +1,21 @@
+{
+  "name": "node-cli",
+  "version": "1.0.0",
+  "description": "node cli program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "taesoek",
+  "license": "ISC",
+  "bin": {
+    "cli": "./command.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.3.0",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4",
+    "path": "^0.12.7"
+  }
+}
